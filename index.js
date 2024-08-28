@@ -4,6 +4,7 @@ import {
   updateDocument,
 } from "./controller/document-controller.js";
 import connection from "./database/db.js";
+
 const PORT = 9000;
 
 connection();
@@ -11,7 +12,7 @@ connection();
 const io = new Server(PORT, {
   cors: {
     origin:
-      "https://googledocsclone-pgjn95j4i-vedantsolunkes-projects.vercel.app",
+      "https://googledocsclone-lx4eylbow-vedantsolunkes-projects.vercel.app",
     methods: ["GET", "POST"],
   },
 });
