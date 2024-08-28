@@ -10,7 +10,8 @@ connection();
 
 const io = new Server(PORT, {
   cors: {
-    origin: "http://localhost:3000",
+    origin:
+      "https://googledocsclone-pgjn95j4i-vedantsolunkes-projects.vercel.app",
     methods: ["GET", "POST"],
   },
 });
